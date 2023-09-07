@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plau Label - Gravadora</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/logo.jpg" alt="Plau Label">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#artists">Artista</a></li>
+                <li><a href="#releases">Lançamentos</a></li>
+                <li><a href="#events">Eventos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Descubra novas Waves!</h1>
+            <a href="#artists" class="btn">Conheça nosso artista</a>
+        </div>
+    </section>
+
+    <section id="artists">
+        <div class="artist-grid">
+            <div class="artist-card">
+                <h3>Plauda</h3>
+                <img src="img/artist1.jpg" alt="Artista 1">
+                <ul class="social-links">
+                    <li><a href="https://www.instagram.com/plaudaa" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/mvplauda" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/plauda" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+                <audio controls>
+                    <source src="previa1.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+    </section>
+
+    <section id="events">
+        <h2>Eventos</h2>
+        <div class="event-list">
+            <div class="event-card">
+                <h3>Show ao Vivo</h3>
+                <p>Data: 15 de Setembro de 2023</p>
+                <p>Local: Teatro da Luz</p>
+                <p>Ingressos disponíveis em breve!</p>
+            </div>
+            <div class="event-card">
+                <h3>Festa de Lançamento do Álbum "OFF"</h3>
+                <p>Data: 30 de Setembro de 2023</p>
+                <p>Local: Clube Noturno Wave</p>
+                <p>Ingressos à venda agora!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para obter mais informações, tirar dúvidas ou enviar feedback.</p>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="releases">
+        <h2>Lançamentos</h2>
+        <div class="release-grid">
+            <div class="release-card">
+                <img src="img/album1.jpg" alt="Álbum 1">
+                <h3>OFF</h3>
+                <p>Plauda</p>
+                <a href="https://www.youtube.com/watch?v=J8FgLnal4X0" target="_blank">Ouça OFF</a>
+            </div>
+
+            <div class="release-card">
+                <img src="img/album2.jpg" alt="Álbum 2">
+                <h3>Only Whipe</h3>
+                <p>Plauda</p>
+                <a href="https://www.youtube.com/watch?v=G2M5ONcEYlQ" target="_blank">Ouça Only Whipe</a>
+            </div>
+
+            <div class="release-card">
+                <img src="img/album3.jpg" alt="Álbum 3">
+                <h3>Lebron</h3>
+                <p>Plauda</p>
+                <a href="https://www.youtube.com/watch?v=q9y9AVh47LA" target="_blank">Ouça Lebron</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <p>Entre em contato:</p>
+                <ul class="contact-links">
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:contato@plaulabel.com">contato@plaulabel.com</a></li>
+                    <li><i class="fas fa-phone"></i> <a href="tel:+123456789">+123 456 789</a></li>
+                    <li><i class="fas fa-map-marker-alt"></i> Rua do Plauda, 123 - Cidade das Laranjas</li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <p>Siga-nos nas redes sociais:</p>
+                <ul class="social-links">
+                    <li><a href="https://www.instagram.com/plaulabel" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/plaulabel" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/plaulabel" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+                <p>&copy; 2023 Plau Label. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
